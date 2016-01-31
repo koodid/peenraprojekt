@@ -24,7 +24,7 @@ def vali_kuju():
 
 raam = Tk()
 raam.title('Kujunda oma peenar!')
-raam.geometry('620x500')
+raam.geometry('650x500')
 raam.configure(background = 'snow')
 
 # Teksti stiilid.
@@ -33,10 +33,10 @@ alapealkiri_font = font.Font(family = 'Papyrus', size = 16, weight = 'bold')
 tavakiri_font = font.Font(family = 'Papyrus', size = 14)
 
 lilled = PhotoImage(file = 'siilikybar.gif')
-Label(raam, image = lilled, width = 300, bg = 'snow').grid(row = 0, rowspan = 2, column = 0, padx = 20, pady = 20)
+Label(raam, image = lilled, width = 300, bg = 'snow').grid(row = 0, rowspan = 2, column = 0, padx=20, pady=20)
 
-Label(raam, text = 'Tere tulemast peenrakujundamise programmi!',
-      wraplength = 300, justify = LEFT, font = pealkiri_font,
+Label(raam, text = 'Tere tulemast aiapeenra kujundamise programmi!',
+      wraplength = 280, justify = LEFT, font = pealkiri_font,
       fg = 'magenta4', bg = 'snow').grid(row = 0, column = 1, pady = 20, sticky = W)
 Label(raam, text = 'Ideed ja abi algajale aiahuvilisele oma lillepeenra kujundamisel.',
       wraplength = 250, justify = LEFT, font = tavakiri_font,
@@ -57,11 +57,14 @@ for txt, val in peenrakujud:
                 variable = v,
                 value = val,
                 font = tavakiri_font,
-                bg = 'snow').grid(row = r, column = 1, sticky = W)
+                bg = 'snow').grid(row = r, column = 1, sticky=W)
     r += 1
 
 # Nupp oma valiku kinnitamiseks ja akna sulgemiseks.
-Button(raam, text = 'Jätka', command =  vali_kuju,
-       font = alapealkiri_font, bg = 'magenta4', fg = 'snow').grid(row = r + 1, column = 1, sticky = W+E)
+Button(raam,
+       text = 'Jätka',
+       command =  vali_kuju,
+       font = alapealkiri_font,
+       bg = 'magenta4', fg = 'snow').grid(row = r + 1, column = 1, sticky=W+E)
 
 mainloop()
