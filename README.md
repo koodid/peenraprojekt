@@ -21,3 +21,5 @@ Kuidas programm töötab?
 5. Programm määratleb ja näitab ligikaudsed istutusalad ning nendesse sobivad taimede kõrgused keskmise kõrgusega peenra jaoks.
 
 6. Soovituslikest taimekõrgustest lähtuvalt toob programm välja konkreetsed taimed, mille seast saab endale meelepärase valiku teha. Pakutud nimekirja on võimalik hilisemaks kasutamiseks ka salvestada.
+
+https://github.com/koodid/peenraprojekt/Peenraprojekt_poster.pdf
