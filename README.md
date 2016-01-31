@@ -1,6 +1,6 @@
 # Aiapeenra kujundamise programm
 
-Ideed ja abi algajale aiahuvilisele aiapeenra kujundamiseks. Annab vastused küsimustele:
+Ideed ja abi algajale aiahuvilisele oma aiapeenra kujundamiseks. Annab vastused küsimustele:
 
 - Mis taimi võiks oma peenrasse istutada?
 
